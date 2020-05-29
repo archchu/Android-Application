@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/pink1"
+    android:layout_height="match_parent"
+    tools:context=".incest">
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        tools:ignore="MissingConstraints">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp">
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="22dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="What is Incest?" />
+                <TextView
+                    android:textSize="22dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Sexual intercourse between members of the family related by blood or as defined by law." />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp">
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="22dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Incest" />
+                <TextView
+                    android:textSize="22dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Section 364 A of the Penal Code defines Incest as follows:\n
+
+ A person engaging in sexual intercourse in any of the following relationships is punishable for the offense of incest:\n
+
+ 1. Relationship where the perpetrator or victim is a direct descendant of the other. Ex: father-son, grandfather-grandson\n
+ 2. An adoptive parent/ grandparent-child/ grandchild relationship\n
+ 3. Brothers and sisters of full/ half blood or by adoption\n
+ 4. Uncle-niece and aunty-nephew relationships\n
+" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="22dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="What can you do?" />
+                <TextView
+                    android:textSize="22dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="If you are a victim of Incest, or you know someone who has been subjected to Incest:\n
+
+ • Confide in someone you can trust or talk to WIN\n
+ • Lodge a complaint at the nearest police station.\n
+ • Ask copy of the complaint and reference number\n
+ • If the victims is a child below the age of 18, report it to the National Child Protection Authority (NCPA)\n
+" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

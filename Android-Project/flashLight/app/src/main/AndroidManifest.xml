@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.AndroidProject.womenSafety">
+
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-feature
+        android:name="android.hardware.camera2"
+        android:required="true"></uses-feature>
+
+    <supports-screens
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:anyDensity="true"
+        />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Stay Safe"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.AndroidProject.womenSafety.reg"
+            android:label="Register"
+            android:parentActivityName="com.AndroidProject.womenSafety.login"></activity>
+        <activity android:name="com.AndroidProject.womenSafety.login"
+            android:label="Login"
+            >
+        </activity>
+        <activity
+            android:name="com.AndroidProject.womenSafety.SaftyPrecaution"
+            android:label="Safety Pre-Cautions"
+            android:parentActivityName="com.AndroidProject.womenSafety.Home" />
+        <activity
+            android:name="com.AndroidProject.womenSafety.self"
+            android:label="Self Defence"
+            android:parentActivityName="com.AndroidProject.womenSafety.information" />
+        <activity
+            android:name="com.AndroidProject.womenSafety.sexualharsmment"
+            android:label="sexualharsment"
+            android:parentActivityName="com.AndroidProject.womenSafety.Law" />
+        <activity
+            android:name="com.AndroidProject.womenSafety.childsexual"
+            android:label="Child Sexual"
+            android:parentActivityName="com.AndroidProject.womenSafety.Law" />
+        <activity
+            android:name="com.AndroidProject.womenSafety.cybersexual"
+            android:label="Cyber Sexual"
+            android:parentActivityName="com.AndroidProject.womenSafety.Law" />
+        <activity
+            android:name="com.AndroidProject.womenSafety.domestic"
+            android:label="Domestic"
+            android:parentActivityName="com.AndroidProject.womenSafety.Law" />
+        <activity
+            android:name="com.AndroidProject.womenSafety.gravesexual"
+            android:label="Grave Sexual"
+            android:parentActivityName="com.AndroidProject.womenSafety.Law" />
+        <activity
+            android:name="com.AndroidProject.womenSafety.incest"
+            android:label="Incest"
+            android:parentActivityName="com.AndroidProject.womenSafety.Law" />
+        <activity
+            android:name="com.AndroidProject.womenSafety.rape"
+            android:label="Rape"
+            android:parentActivityName="com.AndroidProject.womenSafety.Law" />
+        <activity
+            android:name="com.AndroidProject.womenSafety.Law"
+            android:label="Legal Information"
+            android:parentActivityName="com.AndroidProject.womenSafety.information" />
+        <activity
+            android:name="com.AndroidProject.womenSafety.contactList"
+            android:parentActivityName="com.AndroidProject.womenSafety.Contacts" />
+        <activity
+            android:name="com.AndroidProject.womenSafety.Contacts"
+            android:label="Guardians Locator"
+            android:parentActivityName="com.AndroidProject.womenSafety.Home" />
+        <activity
+            android:name="com.AndroidProject.womenSafety.EmergencyAssistance"
+            android:label="Emergency Assistance"
+            android:parentActivityName="com.AndroidProject.womenSafety.Home" />
+        <activity
+            android:name="com.AndroidProject.womenSafety.Comment"
+            android:label="@string/title_activity_comment"
+            android:parentActivityName="com.AndroidProject.womenSafety.Home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.AndroidProject.womenSafety.information"
+            android:label="Information"
+            android:parentActivityName="com.AndroidProject.womenSafety.Home" />
+        <activity
+            android:name="com.AndroidProject.womenSafety.Splash"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.AndroidProject.womenSafety.Home"></activity>
+    </application>
+
+</manifest>

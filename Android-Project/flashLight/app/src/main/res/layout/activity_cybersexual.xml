@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pink1"
+    tools:context=".cybersexual">
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        tools:ignore="MissingConstraints">
+        <LinearLayout android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp">
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="22dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="What is Cyber Sexual Violence?" />
+                <TextView
+                    android:textSize="22dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="It refers to pornography, child pornography, online stalking, uploading inappropriate pictures/ videos of women and girls wi thout their permission on the internet, and also includes blackmail of women and girls on social media networks and websites." />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp">
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="22dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Cyber Sexual Violence" />
+                <TextView
+                    android:textSize="22dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Cyber sexual violence refers to pornography, child pornography, online stalking, uploading inappropriate pictures/ videos of girls and women without their permission on the internet, and also includes blackmail of women and girls on social media networks and websites." />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="22dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="What can you do?" />
+                <TextView
+                    android:textSize="22dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="- Take precaution to share photographs and/ or personal information, and ensure it is with trusted individuals.\n
+
+- Use privacy settings available on the computer and mobile phone.\n
+
+- If you are a victim of Cyber Sexual Violence, or you know someone who has been subjected to such violence:\n\n
+
+ • Lodge a complaint at the nearest police station.\n
+ • Ask copy of the complaint and reference number\n
+ • Lodge a complaint to the Police Cyber Crimes Unit\n
+ • Seek advice from WIN\n
+" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

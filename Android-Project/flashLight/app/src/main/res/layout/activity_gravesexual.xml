@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pink1"
+    tools:context=".gravesexual">
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp">
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="22dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="What is Grave Sexual Abuse?" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="22dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="An act of sexual gratification performed on another, without her consent, using one&apos;s genitals or any other part of the body, or any instrument or object, amounts to Grave Sexual Abuse." />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp">
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="22dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Grave Sexual Abuse" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="22dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Section 365 B of the Penal Code states the following:\n
+
+ • Sexual abuse which falls short of rape is considered Grave Sexual Abuse.\n
+ • This offence is not limited to the use of genitals or parts of the human body.\n
+ • Sexual gratification through an instrument and on any part of another person’s body amounts to grave sexual abuse.\n
+
+ Examples include:\n
+ • Oral sex\n
+ • Physical sexual stimulation\n
+ • The use of instruments and objects
+" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="22dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="What can you do?" />
+                <TextView
+                    android:textSize="22dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="If you are a victim of Sexual Abuse, or you know someone who has been subjected to Sexual Abuse:\n
+
+ • Confide in someone you can trust or talk to WIN\n
+ • Do not change clothes or clean your body before a medical examination.\n
+ • Lodge a complaint at the nearest police station.\n
+ • Ask copy of the complaint and reference number\n
+ • Obtain a medical report from a hospital within 24 hours\n
+ • Record all details of the incident for your future reference\n
+ • Receive counseling and/or legal advice from WIN\n
+" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

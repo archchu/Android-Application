@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pink1"
+    tools:context=".sexualharsmment">
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        tools:ignore="MissingConstraints">
+        <LinearLayout android:orientation="vertical"  android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp">
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="22dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="What is Sexual Harassment?" />
+                <TextView
+                    android:textSize="22dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Sexual harassment is an unwelcome act of a sexual nature by way of assault, criminal force, or words or actions, which causes annoyance or pain of mind to the person being harassed." />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp">
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="22dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Sexual Harassment" />
+                <TextView
+                    android:textSize="22dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Sec. 345 of the Penal Code defines Sexual Harassment as follows:\n
+
+ Whoever, by assault or use of criminal force, sexually harasses another person,\n
+ or\n
+ by the use of words or actions causes sexual annoyance or harassment to touch another person commits the offence of sexual harassment\n
+" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp">
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="22dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Sexual Harassment at an Educational Institute or at the Workplace" />
+                <TextView
+                    android:textSize="22dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Under the Prohibition of Ragging and other forms of Violence in Educational Institutions Act, No. 20 of 1998, if a person causes sexual harassment while ragging any student or a staff member, he/she is committing an offence and can be sentenced to prison for 10 years . Sexual Harassment occurs at the workplace as well. This is a punishable offence, and the organisation should take steps to address the issue forthwith. Sexual gratification at work place is punishable under the Bribery Act of 1980, as court has ruled that the demand for sexual favours in consideration of job promotion was interpreted as a ‘bribe’." />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp">
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="22dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Did you know that Sexual harassment can be committed?" />
+                <TextView
+                    android:textSize="22dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Domestic violence can be committed or caused by someone within the environment of the home or outside and arising out of the personal relationship between the you and the relevant person." />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="22dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp" android:text="What can you do?" />
+                <TextView
+                    android:textSize="22dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="If sexual harassment takes place in public transportation report the incident to the-\n
+
+ • Transport Commission Hotline 011-7 555 555;\n
+ • Police Hotline 119;\n
+ • Children and Women’s Bureau Hotline 011- 2 444 444.\n\n
+
+
+ If sexual harassment takes place at workplace, report it to your superior or human resource manager or any other authority OR follow the procedure laid out in the sexual harassment policy of the institution. Report to the Police. If harassed, report to the police. Talk to WIN.
+
+ Collect as much evidence as possible.\n\n
+
+ If you witness someone being harassed, do not be a mere bystander. Intervene to stop the abuse. Assist the victim. Assist in giving evidence to the police.
+" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

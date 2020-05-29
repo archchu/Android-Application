@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pink1"
+    tools:context=".domestic">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        tools:ignore="MissingConstraints">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <LinearLayout android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp">
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="22dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="What is Domestic Violence?" />
+                <TextView
+                    android:textSize="22dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Domestic violence is the willful intimidation, physical assault, battery, sexual assault, and/or other abusive behavior as part of a systematic pattern of power and control perpetrated by someone in a domestic setting It includes physical violence, sexual violence, psychological violence, and emotional abuse." />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp">
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="22dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Domestic Violence" />
+                <TextView
+                    android:textSize="22dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Domestic violence is the willful intimidation, physical assault, battery, sexual assault, and/or other abusive behavior as part of a systematic pattern of power and control perpetrated by someone in a domestic setting.
+
+ \n• It includes physical violence, sexual violence, psychological violence, and emotional abuse.
+" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp">
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="22dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="How do you detect DV?" />
+                <TextView
+                    android:textSize="22dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="There is no one typical, detectable personality of an abuser. However, they do often display common characteristics. He/She denies the existence or minimizes the seriousness of the violence and its effect on the victim and other family members He/She objectifies the victim and often sees them as their property or sexual objects He/She may be pleasant and charming between periods of violence and is often seen as a nice person to others outside the relationship Red flags and warning signs of an abuser include but are not limited to:\n\n
+ Extreme jealousy\n
+ Baseless suspicion\n
+ Possessiveness\n
+ Unpredictability\n
+ Bad temper\n
+ Verbal abuse\n
+ Extremely controlling behaviour\n\n
+ He/She may have antiquated beliefs about roles of women and men in relationships Forced sex or disregard of their partner&apos;s unwillingness to have sex Sabotage or obstruction of the victim&apos;s ability to work or attend school Controls all the finances Abuse of other family members, children Control of what the victim wears and how they act Demeaning the victim either privately or publicly Embarrassment or humiliation of the victim in front of other\n" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp">
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="22dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Does the law protect you?" />
+                <TextView
+                    android:textSize="22dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Yes it does! You can get a Protection Order from Court to prevent any further abuse, under the Prevention of Domestic Violence Act; this includes Emotional Abuse." />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp">
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="22dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="What are the relationships covered by the Act?" />
+                <TextView
+                    android:textSize="22dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Domestic violence can be committed or caused by someone within the environment of the home or outside and arising out of the personal relationship between the you and the relevant person." />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="22dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="What can you do?" />
+                <TextView
+                    android:textSize="22dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Take pictures of your bruises if any. Collect any evidence of the physical and/or emotional abuse.\n
+
+ • Go to the Police. File a complaint.\n
+ • Talk to WIN.\n
+ • Make sure you and/or your children are safe.\n
+" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
